@@ -1,0 +1,39 @@
+.Contacts {
+    height: 100%;
+    background-color: #111b21;
+    overflow-y: scroll;
+}
+
+/* width */
+.Contacts::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Handle */
+.Contacts::-webkit-scrollbar-thumb {
+    background: #202c33;
+}
+
+
+.sequarity-message{
+    font-size: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    color: white;
+    padding: 5px 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #111b21;
+}
+
+.sequarity-message img{
+    width: 10px;
+}
+
+.sequarity-message a{
+    text-decoration: none;
+    color: rgb(56, 148, 228);
+}

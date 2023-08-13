@@ -1,0 +1,63 @@
+
+
+.contact{
+    width: 100%;
+    list-style: none;
+    height: 50px;
+    position: relative;
+    color: rgb(211, 211, 211);
+    background-color: #111b21;
+    cursor: pointer;
+}
+
+.contact:hover{
+    background-color: #202c33;
+}
+
+
+
+.contact .profile-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.contact .contact-info{
+    width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    position: absolute;
+    top:10px;
+    left:50px;
+
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.contact .contact-info h3{
+   
+    white-space: nowrap;
+    overflow-x: hidden;
+    
+    text-overflow: ellipsis;
+}
+
+
+.contact .last-seen{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 9px;
+    position: absolute;
+    top:10px;
+    right:10px;
+}
+
+hr{
+    border: none;
+    height: 1px;
+    background-color: #3e5662;
+}

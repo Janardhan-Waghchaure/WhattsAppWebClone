@@ -1,0 +1,28 @@
+
+.chats-header{
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: rgb(32 44 51);
+}
+
+.chats-header .profile{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+
+    top: 50%;
+    left: 2%;
+    transform: translateY(-50%);
+}
+
+.chats-header .menu{
+    position: absolute;
+    height: 20px;
+
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
