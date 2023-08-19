@@ -1,0 +1,64 @@
+
+.message-header{
+    position: relative;
+    height: 7%;
+    width: 100%;
+    background-color: rgb(32 44 51);
+
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+
+.message-header .user{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    
+}
+
+
+.message-header .info{
+    position: absolute;
+    left: 30px;
+
+
+    top: 50%;
+    transform: translateY(-50%);
+
+    display: inline-block;
+    margin-left: 19px;
+}
+
+.message-header .person-name{
+    font-size: 10px;
+    
+    color: rgb(211, 211, 211);
+}
+.message-header .last-seen{
+    font-size: 9px;
+    
+    color: rgb(211, 211, 211);
+}
+
+.message-header .search{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 35px;
+    width: 11px;
+}
+
+.message-header .menu{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    height: 20px;
+    width: 20px;
+}

@@ -1,0 +1,19 @@
+.contact-list{
+    height : 100%;
+    flex-basis: 150px;
+    flex-grow: 1;
+    background-color: blue;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width: 1000px) {
+
+    .contact-list{
+        flex-basis: 45%;
+        flex-grow: 1;
+    }
+}

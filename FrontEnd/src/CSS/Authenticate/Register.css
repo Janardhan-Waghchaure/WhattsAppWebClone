@@ -1,0 +1,60 @@
+
+.register{
+    width: 100%;
+    height: 100vh;
+    background-color: #111b21;
+}
+
+.header{
+    width: 100%;
+    height: 30%;
+    background-color: #00ad82;
+}
+
+.register-container{
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+    background-color: white;
+    width: 40%;
+    height: 60%;
+
+    box-shadow: 0 0 13px 5px rgba(40, 40, 40, 0.633);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.register-container form{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #00ad82;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+
+.row{
+    white-space: nowrap;
+}
+
+#email{
+    margin-left: 21px;
+}
+
+#name{
+    margin-left: 21px;
+}

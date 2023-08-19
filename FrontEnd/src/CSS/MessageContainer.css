@@ -1,0 +1,15 @@
+.message-container{
+    height : 100%;
+    flex-basis: 400px;
+    flex-grow: 2;
+    background-color: green;
+}
+
+
+
+@media (max-width: 1000px) {
+    .message-container{
+        flex-basis: 55%;
+        flex-grow: 1;
+    }
+}

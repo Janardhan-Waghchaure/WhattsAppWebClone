@@ -13,13 +13,19 @@
     border-radius: 50%;
 
     top: 50%;
-    left: 2%;
+    left: 10px;
     transform: translateY(-50%);
+    cursor: pointer;
 }
 
-.chats-header .menu{
+.chats-header button{
     position: absolute;
     height: 20px;
+    width: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     top: 50%;
     right: 5px;
